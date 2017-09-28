@@ -1,0 +1,21 @@
+cos:
+  appid: # cos appid
+  secret_id: # cos secret_id
+  secret_key: # cos secret_key
+  region: # cos region, sh 表示华东园区, gz 表示华南园区, tj 表示华北园区
+  bucket: # bucket name
+
+ffmpeg:
+  output:
+    options:
+      - '-vcodec'
+      - 'libx264'
+      - '-preset'
+      - 'fast'
+      - '-crf'
+      - '32'
+      - '-r'
+      - '18'
+      - '-y'
+      - '-acodec'
+      - 'libmp3lame'
