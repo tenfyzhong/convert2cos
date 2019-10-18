@@ -5,5 +5,5 @@ ffmpy==0.2.2
 idna==2.6
 PyYAML==3.12
 qcloud-cos-v4==0.0.22
-requests==2.18.4
+requests==2.20.0
 urllib3==1.22
