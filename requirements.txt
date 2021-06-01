@@ -6,4 +6,4 @@ idna==2.6
 PyYAML==3.12
 qcloud-cos-v4==0.0.22
 requests==2.18.4
-urllib3==1.22
+urllib3==1.26.5
